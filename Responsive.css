@@ -1,0 +1,111 @@
+@media(max-width:500px) {
+    .main_nav{
+        height: 880px;
+    }
+    .navbar img{
+        width: 140px;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .left{
+        max-width: 100vh;
+        align-content: center;
+        padding: 30px 20px;
+    }
+    .left h1{
+        margin-right: 15px;
+        line-height: 50px;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .left p{
+        margin-right: 45px;
+        /* width: 80%; */
+        line-height: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 20px 5px;
+    }
+    .left button{
+        margin-left: 70px;
+        padding: 15px 50px;
+        margin-bottom: 25px;
+    }
+    .container_section{
+        flex-direction: column-reverse;
+        margin: 15px 20px;
+    }
+    .text{
+        max-width: 100vh;
+        padding: 0px;
+        margin-left: 10px;
+        align-content: center;
+
+    }
+    .text h1 {
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+    
+    }
+    
+    .text p {
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .small-container{
+        max-width: 350px;
+        padding: 0%;
+        left: 9%;
+        top: 400%;
+        padding-top: 40px;
+    }
+    .footer{
+        height: 700px;
+
+        
+    }
+    .footer_section{
+        padding: 80px 10px 10px 10px;
+
+    }
+    
+    .social_links{
+
+        flex-direction: column;
+    }
+    .contact{
+        max-width: 100vh;
+        margin-right: 20px;
+        font-size: 10px;
+
+    }.para{
+        padding-right: 20px;
+    }
+    .about_section {
+        margin-left: 10PX;
+        margin-right: 200px;
+        
+
+    }
+    .social_links{
+        margin-right: 50px;
+    }
+    footer{
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    .facebook {
+        width: 300px;
+        margin-right: 20px;
+    }
+    .facebook i{
+        margin-left: 20px;
+    }
+}
